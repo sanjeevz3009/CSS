@@ -1,38 +1,23 @@
 body {
-    display: flex;
     height: 100vh;
     margin: 0px;
+}
+
+.container {
+    display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 10px;
+    gap: 1em;
+    height: 100px;
 }
-
-.one {
-    background-color: antiquewhite;
-    padding: 5px 10px 5px 10px;
-    border: 5px solid black;
-    flex: 2;
-    /* margin: 5px 10px 5px 10px; */
-}
-
-.two {
-    background-color: antiquewhite;
-    padding: 5px 10px 5px 10px;
-    border: 5px solid black;
-    /* margin: 5px 10px 5px 10px; */
-    flex: 1;
-}
-
-
-.three {
-    background-color: antiquewhite;
-    padding: 5px 10px 5px 10px;
-    border: 5px solid black;
-    /* margin: 5px 10px 5px 10px; */
-    flex: 2;
-}
-
 
 p {
-    background-color: red;
+    font-size: 40px;
+    background-color: blue;
+    z-index: 1;
+}
+
+#p {
+    position: absolute;
+    background-color: green;
+    z-index: 2;
 }
