@@ -4,18 +4,10 @@ body {
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    gap: 1em;
-    height: 100px;
+    position: sticky;
+    top: 10px;
 }
 
 p {
     font-size: 40px;
-}
-
-#p {
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
 }
