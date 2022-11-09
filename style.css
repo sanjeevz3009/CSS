@@ -1,8 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+}
+
 .one {
     background-color: antiquewhite;
-    padding: 50px 50px 70px 200px;
+    padding: 5px 10px 5px 10px;
     border: 5px solid black;
-    margin: 50px 100px 100px 70px;
+    margin: 5px 10px 5px 10px;
 }
 
 p {
